@@ -135,4 +135,8 @@ console.log(Object.entries(tinderUser));  // imp
 
 console.log(tinderUser.hasOwnProperty('isloggedIna'));
 
+const newobject = {
+    name: "prasanna"
+}
+
 
