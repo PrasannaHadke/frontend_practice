@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+        *{
+            overflow: auto;
+        }
+        header{
+            padding: 20px;
+            color: white;
+            background-color: grey;
+        }
+       
+       ul{
+        list-style-type: none;
+        margin: 0%;
+        padding: 0%;
+       }
+
+       ul li{
+        background-color: skyblue;
+        margin: 10px;
+        padding: 6px;
+        text-align: center;
+       }
+
+       ul li:hover{
+        background-color: rgb(23, 183, 246);
+       }
+
+       ul li a{
+        text-decoration: none;
+        color: white;
+       }
+
+        .one{
+            width: 30%;
+            float: left;
+        }
+        .two{
+            width: 69%;
+            float: right;
+        }
+
+        footer{
+            padding: 20px;
+            color: white;
+            background-color: grey;
+            clear: right;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Chaina</h1></header>
+    <div class="container">
+        <div class="one">
+            <ul>
+                <li><a href="#">The Flight</a></li>
+                <li><a href="#">City</a></li>
+                <li><a href="#">The Island</a></li>
+                <li><a href="#">The Food</a></li>
+            </ul>
+        </div>
+        <div class="two">
+            <h1>The City</h1>
+            <p>Chaina is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+            <p>You will learn more about web layout and responsize web pages in a later chapter.</p>
+        </div>
+    </div>
+    <footer>footer text</footer>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        display: flex;
+        width: 40%;
+        height: 70vh;
+        border: 1px solid red;
+        /* justify-content: center; */
+        flex-direction: column;
+        /* align-items: flex-start; */
+      }
+      .frm {
+        /* width: 50%;  */
+        height: 10vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+      }
+
+      input[type="text"] {
+        padding: 8px;
+      }
+
+      input[type="date"] {
+        padding: 8px;
+        width: 26%;
+      }
+      #roomtype,
+      #adch {
+        width: 29%;
+        padding: 8px;
+        margin: -16px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <div class="formone frm">
+        <input type="text" placeholder="First Name" />
+        <input type="text" placeholder="Last Name" />
+      </div>
+      <div class="formtwo frm">
+        <!-- <label for="arrival">Arrival</label> -->
+        <input type="date" name="arrival" id="arrival" placeholder="arrival" />
+        <!-- <label for="depature">Depature</label> -->
+        <input
+          type="date"
+          name="depature"
+          id="depature"
+          placeholder="depature"
+        />
+      </div>
+      <div class="three frm">
+        <select id="roomtype" name="roomtype">
+          <option value="RoomType" disabled selected>Room Type</option>
+          <option value="RoomType 1">Room Type 1</option>
+          <option value="RoomType 2">Room Type 2</option>
+          <option value="RoomType 3">Room Type 3</option>
+        </select>
+
+        <select id="roomtype" name="noofrooms">
+          <option value="noofrooms" disabled selected>Number of Rooms</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+      </div>
+
+      <div class="four frm">
+        <select id="adch" name="adults">
+          <option value="adults" disabled selected>Adults</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+
+        <select id="adch" name="child">
+          <option value="child" disabled selected>Childs</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+      </div>
+    </form>
+  </body>
+</html>
