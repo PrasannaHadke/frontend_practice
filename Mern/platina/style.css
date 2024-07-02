@@ -494,6 +494,7 @@ form {
     width: 36%;
     margin: 15px;
     padding: 12px;
+    /* background-color: none; */
 }
 
 .cnt3 select,
@@ -502,6 +503,9 @@ form {
     width: 36.5%;
     margin: 15px;
     padding: 12px;
+    background-color: transparent;
+    border-style: none;
+    border: 1px solid #9b9b9b;
 }
 
 .content2 textarea {
