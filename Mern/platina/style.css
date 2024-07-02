@@ -3,6 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
 /* Option 2: Import via CSS */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 /* navbar */
@@ -43,7 +44,7 @@
 }
 
 .navbar .nav2 ul li a:hover {
-    color:  #f62e71;
+    color: #f62e71;
 }
 
 /* .navbar .nav1 h1{
@@ -104,7 +105,7 @@
     height: 10vh;
 }
 
-.container .btn input[type=button]{
+.container .btn input[type=button] {
     margin: 15px;
     text-align: center;
     width: 135%;
@@ -181,7 +182,8 @@
 
 /* w3school overlay fade */
 
-.cards,.gall {
+.cards,
+.gall {
     position: relative;
     width: 50%;
 }
@@ -205,7 +207,8 @@
     transition: .5s ease;
 }
 
-.cards:hover .overlay,.gall:hover .overlay {
+.cards:hover .overlay,
+.gall:hover .overlay {
     height: 100%;
 }
 
@@ -244,11 +247,12 @@
     background-size: cover;
 }
 
-.third .box2{
+.third .box2 {
     background-color: #222222;
 }
-.third .box2 h1{
-    /* background: linear-gradient(rgb(255, 165, 0, 0.5), #f62e71); */
+
+.third .box2 h1 {
+    background: linear-gradient(to top, #f62e71 0%, #f9ab72 100%);
     color: #f62e71;
     /* border: 2px solid green; */
     width: 45%;
@@ -256,18 +260,24 @@
     margin-top: 55px;
     margin-left: 35px;
     font-size: 2.5rem;
+
+    /* background: -webkit-linear-gradient(#eee, #333); */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.third .box2 p{
+
+.third .box2 p {
     /* background: linear-gradient(rgb(255, 165, 0, 0.5), #f62e71); */
     color: #616161;
     /* border: 2px solid green; */
     width: 55%;
     padding: 15px;
-    text-align:justify;
+    text-align: justify;
     margin-left: 35px;
 }
 
-.btn1{
+.btn1 {
     margin-top: 25px;
     text-align: center;
     width: 32%;
@@ -279,7 +289,7 @@
     background-color: transparent;
     color: #fff;
     box-shadow: none;
-    border: 1px solid #616161 ;
+    border: 1px solid #616161;
 }
 
 .btn1:hover {
@@ -292,7 +302,8 @@
 
 /* fourth page */
 
-.fourth, .cont{
+.fourth,
+.cont {
     width: 100%;
     height: 95vh;
     /* border: 1px solid red; */
@@ -302,25 +313,28 @@
     /* justify-content: center; */
 }
 
-.fourth .fullbox, .cont .fullbox{
+.fourth .fullbox,
+.cont .fullbox {
     width: 45%;
     /* border: 1px solid green; */
     margin: 40px;
 }
 
-.fourth .fullbox h1 , .cont .fullbox h1 {
+.fourth .fullbox h1,
+.cont .fullbox h1 {
     margin: 12px;
     padding: 15px;
     text-align: center;
     color: #222222;
 }
 
-.fourth .fullbox p ,.cont .fullbox p{
+.fourth .fullbox p,
+.cont .fullbox p {
     color: #9b9b9b;
     text-align: center;
 }
 
-.antbox{
+.antbox {
     width: 80%;
     /* border: 1px solid red; */
     height: 60vh;
@@ -330,39 +344,39 @@
     align-items: center;
 }
 
-.antbox .boxes{
+.antbox .boxes {
     width: 30%;
     height: 20vh;
     /* border: 1px solid red; */
 }
 
-.antbox .boxes :hover.bi{
-   color:  #f62e71;
+.antbox .boxes :hover.bi {
+    color: #f62e71;
 }
 
-.boxes .bi{
+.boxes .bi {
     font-size: 40px;
-  color: #9b9b9b;
-  display: block;
-  margin-bottom: 15px;
+    color: #9b9b9b;
+    display: block;
+    margin-bottom: 15px;
 }
 
-.boxes h4{
+.boxes h4 {
     font-size: 1.2rem;
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
-.boxes p{
+.boxes p {
     font-size: 1rem;
-  text-align: justify;
-  color: #8a8a8a;
+    text-align: justify;
+    color: #8a8a8a;
 }
 
 
 
 /* gallery */
 
-.gallery{
+.gallery {
     display: flex;
 }
 
@@ -370,31 +384,164 @@
 
 /* form start */
 
-.forms{
+.forms {
     width: 100%;
     height: 120vh;
     /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+.frms1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    height: 30vh;
+    /* border: 1px solid green; */
+    box-shadow: -21.213px 0px 30px 0px rgba(158, 158, 158, 0.3);
+}
+.frms1 h1{
+    font-size: 2.5rem;
+    margin-bottom: 25px;
 }
 
-.cont{
+.frms1 p{
+    width: 60%;
+    /* margin: auto; */
+    text-align: center;
+    /* border: 2px solid blueviolet; */
+    color: #9b9b9b;
+}
+/* .cont {
     width: 80%;
     height: 80vh;
     border: 1px solid green;
-    /* box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green; */
+    box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
     box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
-}
+} */
 
 /* forms */
+.forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120vh;
+    /* border: 1px solid red; */
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* align-items: end; */
+    width: 80%;
+    height: 60vh;
+    /* border: 1px solid green; */
+    box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
+
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    /* width: 70%; */
+    flex-grow: 2;
+    height: 42vh;
+    /* border: 1px solid brown; */
+    justify-content: center;
+}
+
+.content2 {
+    display: flex;
+    /* flex-direction: column;  */
+    align-items: center;
+    flex-grow: 1;
+    width: 20%;
+    height: 42vh;
+    /* border: 1px solid brown; */
+}
+
+.content3 {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    /* border: 1px solid brown; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cnt1,
+.cnt2,
+.cnt3,
+.cnt4 {
+    display: flex;
+    width: 75%;
+    /* align-items: center; */
+    /* border: 1px solid blue; */
+    justify-content: center;
+}
+
+.cnt1 input[type="text"],
+.cnt2 input[type="date"] {
+    display: block;
+    width: 36%;
+    margin: 15px;
+    padding: 12px;
+}
+
+.cnt3 select,
+.cnt4 select {
+    display: block;
+    width: 36.5%;
+    margin: 15px;
+    padding: 12px;
+}
+
+.content2 textarea {
+    width: 100%;
+    height: 85%;
+}
+
+.content3 button{
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    padding: 12px;
+    border-radius: 25px;
+    color: white;
+    font-size: 1rem;
+    /* font-weight: 600; */
+    text-transform: uppercase;
+    /* background-color: #f62e71; */
+    background: linear-gradient(to top, #f62e71 0%, #f9ab72 100%);
+    box-shadow: none;
+    transition: 2s ease-in-out;
+}
+
+
+.bi-arrow-right{
+    margin-left: 5px;
+}
+
+.content3 button:hover .bi-arrow-right{
+    transform: translateX(15px);
+}
+
+
 
 /* forms end */
 
 
 /* address */
 
-.address{
+.address {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -404,25 +551,25 @@
     /* border: 1px solid brown; */
 }
 
-.add{
+.add {
     width: 20%;
     height: 20vh;
     /* border: 1px solid goldenrod; */
 }
 
-.add h3{
+.add h3 {
     text-align: center;
     margin: 15px;
 }
 
-.add p{
+.add p {
     text-align: center;
     color: #9b9b9b;
 }
 
 /* address end */
 
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -433,75 +580,72 @@ footer{
     background-color: #222222;
 }
 
-.foot{
+.foot {
     width: 17%;
     height: 20vh;
     /* border: 1px solid green; */
 }
 
-.foot h3{
+.foot h3 {
     color: #fff;
     margin: 10px 0px 10px 0px;
     font-size: 1.2rem;
 }
 
-.foot p{
+.foot p {
     color: #9b9b9b;
     text-align: justify;
 }
 
-input[type="email"]{
+input[type="email"] {
     margin: 18px 0px 10px 0px;
-    padding:  7px;
+    padding: 7px;
     width: 80%;
     background-color: #191919;
     color: #9b9b9b;
     border: none;
 }
 
-button{
-    background-color:#f62e71;
+button {
+    background-color: #f62e71;
     border: none;
     padding: 5px;
 }
 
-.bi-arrow-right{
+.bi-arrow-right {
     color: #fff;
 }
 
-.bi-behance,.bi-dribbble,.bi-facebook,.bi-twitter{
+.bi-behance,
+.bi-dribbble,
+.bi-facebook,
+.bi-twitter {
     color: #fff;
-  margin: 18px 20px 10px 0px;
-  display: inline-block;
+    margin: 18px 20px 10px 0px;
+    display: inline-block;
 }
 
-.bi-behance:hover,.bi-dribbble:hover,.bi-facebook:hover,.bi-twitter:hover{
+.bi-behance:hover,
+.bi-dribbble:hover,
+.bi-facebook:hover,
+.bi-twitter:hover {
     color: #f62e71;
     cursor: pointer;
 }
 
-.copyright{
+.copyright {
     display: flex;
     background-color: #222222;
     color: #9b9b9b;
     justify-content: center;
     height: 20vh;
 }
-.copyright p{
+
+.copyright p {
     letter-spacing: 1px;
 }
-.bi-suit-heart,.copyright p span{
+
+.bi-suit-heart,
+.copyright p span {
     color: #f62e71;
 }
-
-    
-    
-    
-
-
-
-
-
-
-
-
